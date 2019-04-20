@@ -1,0 +1,23 @@
+.chart-table {
+	background-color: white;
+	box-shadow: 10px 10px 15px 2px #e0dede;
+	width: 78vw;
+}
+
+.ReactTable .rt-thead {
+	color: rgb(51, 71, 93);
+	padding: 10px;
+}
+
+.ReactTable .rt-tbody {
+	color: rgb(183, 181, 188);
+	text-align: center;
+}
+
+.ReactTable .rt-tr-group {
+	padding: 10px 5px 10px 5px;
+}
+
+.ReactTable .select-wrap {
+	display: none;
+}

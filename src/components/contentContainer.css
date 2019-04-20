@@ -1,0 +1,11 @@
+.content-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.chart-and-table-container {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-between;
+}

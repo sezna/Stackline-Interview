@@ -1,0 +1,27 @@
+.chart-title {
+	margin: 20px;
+	color: rgb(100, 100, 100);
+	font-size: 1.5rem;
+	align-self: start;
+}
+
+.chart {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	align-items: center;
+	width: 78vw;
+	margin: 0px 1vw 2vh 0px;
+	background-color: white;
+	box-shadow: 10px 10px 15px 2px #e0dede;
+	border-bottom: 1px solid rgb(200, 200, 200);
+	padding: 0px 0px 20px 0px;
+}
+
+.months {
+	color: rgb(183, 181, 188);
+	display: flex;
+	width: 95%;
+	justify-content: space-around;
+	text-transform: uppercase;
+}
