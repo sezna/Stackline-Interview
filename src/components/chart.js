@@ -14,13 +14,13 @@ const Chart = ({sales}) =>  <div className="chart">
 				<YAxis domain={[-900000,2000000]} hide={true}/>
 				<Tooltip formatter={
 					(value, name) => [
-									 Intl.NumberFormat('en-US',
-									 	{
-											style: 'currency',
-									   		currency: 'USD' 
-									    }).format(value),
-				   					 name === "retailSales" ? "Retail Sales" : "Retailer Margin"
-									 ]		
+								Intl.NumberFormat('en-US',
+									{
+										style: 'currency',
+									   	currency: 'USD' 
+									}).format(value),
+				   				name === "retailSales" ? "Retail Sales" : "Retailer Margin"
+							]		
 				}/>
 			</LineChart>
 	</ResponsiveContainer>
